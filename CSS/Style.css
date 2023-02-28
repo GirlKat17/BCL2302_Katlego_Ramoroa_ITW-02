@@ -1,0 +1,76 @@
+p {
+  font: size 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 1%;
+
+}
+
+h1 {
+  font: size 70px;
+  text-align: center;
+  position: relative;
+  top: 5%;
+}
+
+li {
+  color: darkblue;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+
+}
+
+a {
+  color: rgb(128, 12, 58);
+
+}
+
+body {
+
+  background-color: #e3ebeb;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+
+
+a {
+  font: 16px;
+  text-align: center;
+  line-height: 3;
+  color: black;
+  letter-spacing: 1px;
+}
+
+
+a:hover {
+  background: orange;
+}
+
+section {
+  background-color: rgb(196, 201, 208);
+}
+
+h2 .hightlight {
+  background-color: rgb(242, 242, 242);
+}
+
+.notebox {
+
+  padding-right: 10%;
+  text-align: center;
+  position: relative;
+  left: 10%;
+  right: 5%;
+  top: 20%;
+}
+
+.back {
+  background-color: rgb(156, 199, 216);
+  width: fit-content;
+}
