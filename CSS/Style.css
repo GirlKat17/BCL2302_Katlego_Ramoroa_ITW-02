@@ -7,6 +7,8 @@ img {
   max-width: 100%;
   height: auto;
   padding: 1%;
+  border-radius:50%;
+  
 
 }
 
@@ -54,10 +56,12 @@ a:hover {
 
 section {
   background-color: rgb(196, 201, 208);
+  margin-left: auto;
+  
 }
 
 h2 .hightlight {
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(230, 234, 237);
 }
 
 .notebox {
@@ -71,6 +75,9 @@ h2 .hightlight {
 }
 
 .back {
-  background-color: rgb(156, 199, 216);
+  background-color: rgb(115, 130, 132);
   width: fit-content;
 }
+
+
+  
