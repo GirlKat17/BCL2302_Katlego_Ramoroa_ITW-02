@@ -3,12 +3,15 @@
 
 <head>
 
-    <title>
-        Katlego Patience Ramoroa
-    </title>
-    <!-- my css link-->
-    <link rel="stylesheet" type="text/css" href="css/Style5.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+        <title>
+            Katlego Patience Ramoroa
+        </title>
+        <!-- my css link-->
+        <link rel="stylesheet" type="text/css" href="css/Style5.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />   
+</head>
+
+<header>
 
 
     <h1 id="Name">Katlego Patience Ramoroa</h1>
@@ -17,26 +20,25 @@
 
     <p class="notebox">An introductory personal statement.
         <!-- My download button-->
-        <button onclick="window.print()"   class="buttonDownload" >Download
-           
+        <button onclick="window.print()" class="buttonDownload">Download
+
         </button>
     </p>
 
 
-    <aside>
-      
-        <!-- my image-->
-    
-            
-                <picture class="img">
-                    <source media="(max-width: 650px)" srcset="./image/Katlego Face.jpg">
-                    <source media="(max-width: 1000px)" srcset="./images/Katlego half.jpg">
-                    <img src="./image/Katlego.jpg">
 
-                </picture>
-                
-    </aside>
-</head>
+
+        <!-- my image-->
+
+
+        <picture>
+
+            <source media="(min-width: 650px)" srcset="./image/Katlego half.jpg">
+            <source media="(min-width: 465px)" srcset="./image/Katlego Face.jpg">
+            <img src="./image/Katlego.jpg" width="20%" height="2%">
+        </picture>
+
+</header>
 
 
 <!-- my section starts here -->
@@ -169,17 +171,17 @@
     <label for="contact">Contact Numbers:</label>
     <input type="numbers" id="Cnumbers" name="Contact Numbers" required><br>
 
-<select name="Reason" id="_Subject" required><br>
-    <option value="Interview" >Interview</option>
-    <option value="Resume feedback">Feedback</option>
-    <option value="Recruiter">Recruiter</option>
-</select>
+    <select name="Reason" id="_Subject" required><br>
+        <option value="Interview">Interview</option>
+        <option value="Resume feedback">Feedback</option>
+        <option value="Recruiter">Recruiter</option>
+    </select>
     <!--Method of reply back-->
     <input type="radio" id="Call" name="method of reply" value="Call" required>
     <label for="call">Call</label><br>
     <input type="radio" id="Email" name="Method of reply" value="Email" required>
     <label for="Email">Email</label><br>
-<!--Submit button-->
+    <!--Submit button-->
     <input class="submit" type="submit" value="Send"><br>
 </form>
 <footer>

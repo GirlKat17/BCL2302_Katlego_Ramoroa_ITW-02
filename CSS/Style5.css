@@ -9,8 +9,9 @@ p {
     max-width: 100%;
     height: auto;
     padding: 1%;
-   min-width: 300px;
-   min-height: 150px;
+    border-radius:2%;
+    
+
     
   }
   
@@ -21,6 +22,7 @@ p {
     top:2%;
     margin-top:5%;
     left:40%;
+    color: white;
   }
 
   h3{
@@ -43,7 +45,7 @@ p {
   
   body {
   
-    background-color: #e3ebeb;
+    background-color:rgb(230, 241, 242);
     padding-left: 5%;
     padding-right: 5%;
   
@@ -76,6 +78,7 @@ p {
     position:absolute;
     left: 37%;
     top:20%;
+    color: white;
   
   }
   
@@ -121,5 +124,20 @@ button {
   text-align: center;
   font-size:  10px;
   box-shadow:0 8px 16px 0 rgb(19, 18, 16), 0 6px 20px 0 black;
+
+}
+
+header{
+  background: white url(https://www.digitaltrends.com/wp-content/uploads/2021/11/macbook-pro-2021-16.jpg?p=1);
+  background-size: cover ;
+}
+
+.hero-content {
+  background-color:transparent ;
+  height: 20vh;
+  width: 50vh;
+
+  display: flex;
+  flex-direction: column;
 
 }
